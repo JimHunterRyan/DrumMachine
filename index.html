@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drum Machine</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    
-
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1 class="mainTitle">Drum Machine</h1>
-        <img src="images/drums.png" alt="drum logo" id="drumImg">
+      <h1 class="mainTitle">Drum Machine</h1>
+      <img src="images/drums.png" alt="drum logo" id="drumImg" />
     </header>
     <div id="drum-machine">
-       <div id="display">The drum info will appear here</div>
-       <div id="buttons">
-           <div id="btn1" class="drum-pad" onclick="playQ()">Q<audio src="/sounds/tick.wav" class="clip" id="Q"></audio></div>
-           <div id="btn2" class="drum-pad" onclick="playW()">W<audio src="/sounds/tom.wav" class="clip" id="W"></audio></div>
-           <div id="btn3" class="drum-pad" onclick="playE()">E<audio src="/sounds/oddkick.wav" class="clip" id="E"></audio></div>
-           <div id="btn4" class="drum-pad" onclick="playA()">A<audio src="/sounds/slayer.wav" class="clip" id="A"></audio></div>
-           <div id="btn5" class="drum-pad" onclick="playS()">S<audio src="/sounds/hihat.wav" class="clip" id="S"></audio></div>
-           <div id="btn6" class="drum-pad" onclick="playD()">D<audio src="/sounds/synth.wav" class="clip" id="D"></audio></div>
-           <div id="btn7" class="drum-pad" onclick="playZ()">Z<audio src="/sounds/doublepipe.wav" class="clip" id="Z"></audio></div>
-           <div id="btn8" class="drum-pad" onclick="playX()">X<audio src="/sounds/splash.wav" class="clip" id="X"></audio></div>
-           <div id="btn9" class="drum-pad" onclick="playC()">C<audio src="/sounds/metal.wav" class="clip" id="C"></audio></div>
-       </div>
+      <div id="display">The drum info will appear here</div>
+      <div id="buttons">
+        <div id="btn1" class="drum-pad" onclick="playQ()">
+          Q<audio src="/sounds/tick.wav" class="clip" id="Q"></audio>
+        </div>
+        <div id="btn2" class="drum-pad" onclick="playW()">
+          W<audio src="/sounds/tom.wav" class="clip" id="W"></audio>
+        </div>
+        <div id="btn3" class="drum-pad" onclick="playE()">
+          E<audio src="/sounds/oddkick.wav" class="clip" id="E"></audio>
+        </div>
+        <div id="btn4" class="drum-pad" onclick="playA()">
+          A<audio src="/sounds/slayer.wav" class="clip" id="A"></audio>
+        </div>
+        <div id="btn5" class="drum-pad" onclick="playS()">
+          S<audio src="/sounds/hihat.wav" class="clip" id="S"></audio>
+        </div>
+        <div id="btn6" class="drum-pad" onclick="playD()">
+          D<audio src="/sounds/synth.wav" class="clip" id="D"></audio>
+        </div>
+        <div id="btn7" class="drum-pad" onclick="playZ()">
+          Z<audio src="/sounds/doublepipe.wav" class="clip" id="Z"></audio>
+        </div>
+        <div id="btn8" class="drum-pad" onclick="playX()">
+          X<audio src="/sounds/splash.wav" class="clip" id="X"></audio>
+        </div>
+        <div id="btn9" class="drum-pad" onclick="playC()">
+          C<audio src="/sounds/metal.wav" class="clip" id="C"></audio>
+        </div>
+      </div>
     </div>
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>

@@ -1,61 +1,60 @@
 html {
-    background-color:darkgray;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-    }
-.mainTitle{
-    font-family: 'Montserrat', sans-serif;
+  background-color: darkgray;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-#drumImg{
-    margin-left: 10px;
-   max-width: 5%;
-   height: 8vh;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mainTitle {
+  font-family: "Montserrat", sans-serif;
 }
-#drum-machine{
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: rgb(26, 19, 19);
-    display: flex;
-    
+#drumImg {
+  margin-left: 10px;
+  max-width: 5%;
+  height: 8vh;
 }
-#buttons{
-    display: flex;
-    
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drum-machine {
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(26, 19, 19);
+  display: flex;
+}
+#buttons {
+  display: flex;
 
-   
-    
-    
-    
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.drum-pad{
-    text-align: center;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    height: 20vh;;
-    flex-basis: 29%;
-    border: 1px antiquewhite solid;
-    font-family: 'Montserrat', sans-serif;
-    color: antiquewhite;
-    line-height: 20vh;
-    
+.drum-pad {
+    font-size: 25px;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 20vh;
+  flex-basis: 29%;
+  border: 1px antiquewhite solid;
+  font-family: "Montserrat", sans-serif;
+  color: antiquewhite;
+  line-height: 20vh;
 }
-#display{
-    color: greenyellow;
-    height: 10vh;;
-    font-family: monospace;
+#display {
+  color: greenyellow;
+  height: 10vh;
+  font-family: monospace;
+}
+.drum-pad:hover{
+    background-color: brown;
 }
