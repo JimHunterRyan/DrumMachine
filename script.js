@@ -10,7 +10,17 @@ var z = document.getElementById("Z");
 var x = document.getElementById("X");
 var c = document.getElementById("C");
 
-document.addEventListener("keypress", logKey);
+document.addEventListener('keyup', (e) => {
+    if (e.code === "KeyQ")        playQ();
+    else if (e.code === "KeyW") playW();
+    else if (e.code === "KeyE") playE();
+    else if (e.code === "KeyA") playA();
+    else if (e.code === "KeyS") playS();
+    else if (e.code === "KeyD") playD();
+    else if (e.code === "KeyZ") playZ();
+    else if (e.code === "KeyX") playX();
+    else if (e.code === "KeyC") playC();
+  });
 
 function playQ() {
   q.play();
@@ -47,7 +57,4 @@ function playX() {
 function playC() {
   c.play();
   screen.innerHTML = "Metal";
-}
-function logKey(q) {
-   c.play()
 }
