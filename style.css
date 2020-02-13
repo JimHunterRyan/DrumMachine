@@ -51,9 +51,12 @@ header {
   line-height: 20vh;
 }
 #display {
+    line-height: 10vh;
+    text-align: center;
   color: greenyellow;
   height: 10vh;
   font-family: monospace;
+  font-size: 20px;
 }
 .drum-pad:hover{
     background-color: brown;
