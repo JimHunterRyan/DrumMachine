@@ -1,7 +1,7 @@
 # DrumMachine
 A vanilla js drum machine with some interesting sounds
 
-[Live site](https://jimryan.meu/DrumMachine/)  
+[Live site](https://jimryan.eu/DrumMachine/)  
 
 ![](drums.gif)  
 
